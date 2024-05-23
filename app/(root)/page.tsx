@@ -1,16 +1,14 @@
-import Inner from "@/components/inner";
-import Middle from "@/components/middle";
-import Outer from "@/components/outer";
-import RightBig from "@/components/rightBig";
+import Inner from "@/components/background/_components/inner";
+import Middle from "@/components/background/_components/middle";
+import Outer from "@/components/background/_components/outer";
+import RightBig from "@/components/background/_components/rightBig";
 import LoginForm from "./login";
+import BgDesign from "@/components/background/background";
 
 export default function Home() {
   return (
     <div>
-      <RightBig />
-      <Outer />
-      <Middle />
-      <Inner />
+      <BgDesign />
       <LoginForm />
     </div>
   );
