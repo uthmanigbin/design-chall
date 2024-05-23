@@ -2,8 +2,8 @@ const Middle = () => {
   return (
     <div className="bottom-0 left-0 absolute">
       <svg
-        width="438"
-        height="438"
+        width="338"
+        height="338"
         viewBox="0 0 286 286"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
